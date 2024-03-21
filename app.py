@@ -24,4 +24,4 @@ def index():
     return render_template("index.html", app_data=app_data)
 
 if __name__ == "__main__":
-    app.run(debug=DEVELOPMENT_ENV)
+    app.run()
